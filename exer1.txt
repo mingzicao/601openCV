@@ -1,0 +1,5 @@
+The object is stored in a matrix.
+Matrix elements are stored row by row. Element (i, j) (i - 0-based row index, j - 0-based column index) of a matrix can be retrieved or modified using CV_MAT_ELEM macro. 
+Then it can get the data of each pixel from the certain positions.  
+for gray scale image, the data of one pixel is only saved in one position in the matrix.
+for RGB, the data of R, G, B part are saved in three channels, so the program will read the R, G, B value seperately and then generate the pixel.
